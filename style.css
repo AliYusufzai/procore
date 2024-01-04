@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lato:wght@400;700;900&family=Urbanist:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER SECTION STARTS HERE */
+
+.head {
+  background-color: #ffffff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #555555;
+  padding: 0 48px;
+}
+
+.logo_wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.logo_wrapper ul {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.logo_wrapper li {
+  display: inline-flex;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+.logo_wrapper img {
+  height: 80px;
+}
+
+.button_wrapper {
+  background-color: beige;
+  margin-right: 20px;
+}
+
+.button_wrapper button {
+  background-color: #f4f5f6;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  border: #f4f5f6;
+}
+
+/* HEADER SECTION ENDS HERE */
+
+/* HERO SECTION STARTS HERE */
+
+.hero {
+  background-color: thistle;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero img {
+  max-width: 100%;
+  transform: scale(1.05);
+}
+
+.content-container {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  color: white;
+}
+
+.content-container h1 {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+.content-container .heading {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.content-container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.content-container button {
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+/* HERO SECTION ENDS HERE */
+
+.solutions {
+  padding: 30px;
+}
+
+.solutions h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.info {
+  display: flex;
+  padding: 0 30px;
+  gap: 40px;
+}
+
+.info-card {
+  position: relative;
+  height: 300px;
+}
+
+.info-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform: scaleX(0.9);
+  transform-origin: left;
+}
+
+.designation {
+  position: absolute;
+  width: 100%;
+  background-color: #0033a1;
+  color: white;
+  top: 90%;
+  padding: 20px 20px;
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.info-card p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 70px;
+}
