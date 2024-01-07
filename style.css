@@ -102,19 +102,20 @@
 
 /* HERO SECTION ENDS HERE */
 
+/* TEAM SECTION STARTS HERE */
 .solutions {
   padding: 40px 0;
   min-height: 750px;
 }
 
-.container {
+.container-team {
   max-width: 1320px;
   width: 100%;
   padding: 0 48px;
   margin: 0 auto;
 }
 
-.container h2 {
+.container-team h2 {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -157,21 +158,23 @@
   font-weight: 700;
 }
 
-/* Products info starts here */
+/* TEAM SECTION ENDS HERE */
+
+/* PRODUCTS SECTION STARTS HERE */
 
 .products {
   background-color: #f4f5f6;
   padding-top: 50px;
 }
 
-.container {
+.container-products {
   max-width: 1320px;
   width: 100%;
   padding: 0 48px;
   margin: 0 auto;
 }
 
-.container h2 {
+.container-products h2 {
   text-align: center;
   margin-bottom: 60px;
   font-size: 40px;
@@ -181,7 +184,6 @@
 .products-info {
   display: flex;
   gap: 40px;
-  margin-bottom: 50px;
 }
 
 .products-info-card {
@@ -219,10 +221,55 @@
   line-height: 24px;
 }
 
-.container h5 {
+.container-products h5 {
   text-align: center;
   color: #ff5200;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
+  padding: 40px 0;
 }
+
+/* PRODUCTS SECTION ENDS HERE */
+
+/* PROJECTS SECTION STARTS HERE */
+
+.projects {
+  padding: 50px 0;
+  background-color: #f4f5f6;
+}
+
+.container-projects {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.project-detail {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.project-detail h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.project-clients {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.clients {
+  width: 306px;
+  padding: 20px 0;
+}
+
+.project-clients img {
+  width: 100px;
+}
+
+/* PROJECTS SECTION ENDS HERE */
