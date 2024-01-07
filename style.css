@@ -259,8 +259,17 @@
 
 .project-clients {
   display: flex;
-  justify-content: space-between;
-  background-color: #ffffff;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.clients {
+  width: 306px;
+  padding: 20px 0;
+}
+
+.project-clients img {
+  width: 100px;
 }
 
 /* PROJECTS SECTION ENDS HERE */
