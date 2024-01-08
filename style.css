@@ -273,3 +273,66 @@
 }
 
 /* PROJECTS SECTION ENDS HERE */
+
+/* STORY SECTION STARTS HERE */
+
+.success-story {
+  padding: 50px 0;
+  background-color: #f4f5f6;
+}
+
+.container-story {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.story {
+  display: flex;
+  background: black;
+  color: #ffffff;
+}
+
+.story-right {
+  flex: 1;
+  background-color: black;
+}
+.text-container {
+  padding: 100px;
+}
+
+.text-container h5 {
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.detail {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.namee {
+  font-weight: 700;
+}
+.infoo {
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 70px;
+}
+
+.read {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ff5200;
+}
+
+.story-left {
+  flex: 1;
+}
+
+.story-left img {
+  height: 570px;
+  width: 100%;
+}
