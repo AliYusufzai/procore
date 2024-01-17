@@ -336,3 +336,59 @@
   height: 570px;
   width: 100%;
 }
+
+.case {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff5200;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.customer-support {
+  padding: 15px 0;
+  background-color: #f4f5f6;
+}
+
+.customer-container {
+  max-width: 1320px;
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+.customer {
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.customer-left {
+  flex: 1;
+}
+.customer-text-container {
+  padding: 180px 80px;
+}
+
+.customer-text-container h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.customer-text-container p {
+  color: #ff5200;
+  font-size: 20px;
+  font-weight: 600;
+}
+.customer-right {
+  flex: 1;
+  padding: 80px 80px;
+}
+
+.support-one {
+  display: flex;
+}
+
+.support-description {
+  display: flex;
+}
