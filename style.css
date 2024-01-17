@@ -362,9 +362,6 @@
   background: #ffffff;
 }
 
-.customer-left {
-  flex: 1;
-}
 .customer-text-container {
   padding: 180px 80px;
 }
@@ -387,8 +384,30 @@
 
 .support-one {
   display: flex;
+
+  margin-bottom: 40px;
+}
+
+.customer-right hr {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.support-one img {
+  height: 100%;
 }
 
 .support-description {
-  display: flex;
+  padding: 0 20px;
+}
+
+.support-description h4 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.support-description p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 22px;
 }
