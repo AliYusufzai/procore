@@ -15,10 +15,10 @@
   </head>
   <body>
     <div id="main">
-      <header class="head">
+      <header class="head active">
         <div class="row">
+          <img src="images/pngegg.png" />
           <div class="logo_wrapper">
-            <img src="images/pngegg.png" />
             <ul>
               <li>Solutions</li>
               <li>Who We Server</li>
@@ -26,11 +26,16 @@
               <li>Support</li>
             </ul>
           </div>
-
-          <div class="button_wrapper">
-            <button type="button">Log In</button>
+          <button type="button">Log In</button>
+          <div class="mobile-nav-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
           </div>
         </div>
+        <!-- <div class="mobile-nav-btn">
+          <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+          <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+        </div> -->
       </header>
       <section class="hero">
         <img src="images/hero.jpg" />
@@ -489,5 +494,14 @@
         </div>
       </footer>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
   </body>
 </html>
